@@ -1,0 +1,9 @@
+
+.env
+.DS_Store
+/mongo
+/postgres
+node_modules/
+dist/
+build/
+coverage/

@@ -1,0 +1,28 @@
+{
+  "name": "api-express-ts-services",
+  "version": "1.0.0",
+  "description": "Repositorio API Rest Full basado en Express, TypeScript, MongoDB, Mongoose, arquitectura limpia y código limpio, basado en servicios.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --clear src/app.ts",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.9",
+    "rimraf": "^6.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "env-var": "^7.5.0",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2"
+  }
+}
