@@ -1,6 +1,6 @@
-import { envs } from "./config/adapter/envs";
-import { AppRoutes } from "./config/app.routes";
-import { Server } from "./config/server";
+import { envs } from "./config/envs";
+import { AppRoutes } from "./presentation/app.routes";
+import { Server } from "./presentation/server";
 
 
 (async() =>{
