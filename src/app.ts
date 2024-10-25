@@ -1,3 +1,4 @@
+import { envs } from "./config/adapter/envs";
 import { Server } from "./config/server";
 
 
@@ -7,6 +8,8 @@ import { Server } from "./config/server";
 
 function main(){
     
-    const server = new Server();
+    const server = new Server({
+        port: envs.PORT,
+    });
     server.start();
 }
